@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #eef2f7;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #111827, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* SEÇÕES */
+section {
+    margin: 30px;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: scale(1.01);
+}
+
+/* TÍTULOS */
+h2 {
+    color: #1f2937;
+}
+
+/* IMAGENS */
+section img {
+    width: 120px;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111827;
+    color: white;
+}
+
+footer p {
+    margin: 5px;
+}
